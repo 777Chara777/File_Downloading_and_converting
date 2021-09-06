@@ -14,7 +14,7 @@ def save_from_www(link, path):
 path = input("Путь к установке: ")
 link = input("Ссылка на файл: ")
 end = input("Окончание (расширения): ")
-end2 = input("Что будет вместо окончание (расширения): ")
+end2 = input("Что будет вместо окончание (расширения): ") 
 
 path1 = path.replace('\\','/')
 save_from_www(link, path1)
